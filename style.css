@@ -1,0 +1,402 @@
+/*-----------------------------------------------------------------------------------
+
+	Template Name: Version College
+	Template URI: http://coderitem.com
+	Description: This is Version College web site. 
+	Author: SA Bappy
+	Author URI: http://sabappy.com
+	License: GNU General Public License version 3.0
+	License URI: http://www.gnu.org/licenses/gpl-3.0.html
+	Version: 1.0
+
+-----------------------------------------------------------------------------------
+
+	1. Typography
+	2. Header Area 
+	3. Iteam Area
+	4. Footer Area
+
+-----------------------------------------------------------------------------------*/
+
+/*****************************************************/
+/**************    1. Typography   *******************/
+/*****************************************************/
+
+* {
+    margin: 0;
+    padding: 0
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+    color: #000000;
+    background: #FFFFFF;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+}
+a:hover {
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+    padding: 0;
+}
+h1 {
+	font-size: 35px;
+	font-weight: 700;
+}
+
+img {
+    border: none;
+    max-width: 100%
+}
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+button:focus {
+    border: none;
+    outline: none;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+}
+input:focus {
+    border: none;
+    outline: none;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+}
+.align-center {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+
+
+  /*****************************************************/
+ /**************    2. Header Area   ****************/
+/*****************************************************/
+.hero-area {
+	overflow: hidden;
+}
+.hero-shep {
+	position: absolute;
+	right: -55px;
+	top: -35px;
+	width: 63%;
+}
+.header-area {
+	padding: 25px 0px;
+}
+.logo-area a {
+	font-size: 20px;
+	font-weight: 700;
+	color: #000;
+}
+.main-menu {
+	text-align: right;
+}
+.main-menu ul li {
+	display: inline-block;
+	padding: 0px 10px;
+}
+.main-menu ul li a {
+	color: #FFF;
+	font-weight: 500;
+	font-size: 16px;
+	vertical-align: middle;
+}
+.main-menu ul li a img {
+	width: 22px;
+}
+
+.banner-area {
+	padding: 50px 0px;
+}
+.hero-content h1 {
+	color: #0353B4;
+	margin-bottom: 6px;
+}
+.hero-content h1 span {
+	color: #18A4E1;
+}
+.hero-content p {
+	margin-bottom: 30px;
+}
+.hero-content a {
+	background: #0353B4;
+	padding: 10px 35px;
+	color: #FFF;
+	text-transform: uppercase;
+	border-radius: 100px;
+}
+
+  /*****************************************************/
+ /**************    3. Service Area     ******************/
+/*****************************************************/
+.service-area {
+	padding: 50px 0px;
+}
+.section-heading {
+	text-align: center;
+	margin-bottom: 35px;
+}
+.section-heading h1 {
+	color: #1C1C1C;
+	margin-bottom: 10px;
+}
+.single-service {
+	padding: 50px 25px;
+	text-align: center;
+	-webkit-box-shadow: 0px 0px 20px rgba(24, 164, 225, 0.1);
+	        box-shadow: 0px 0px 20px rgba(24, 164, 225, 0.1);
+	border-radius: 10px;
+}
+.single-service img {
+	height: 55px;
+	margin-bottom: 22px;
+}
+.single-service h3 {
+	color: #18A4E1;
+	font-size: 20px;
+	font-weight: 700;
+	margin-bottom: 10px;
+}
+
+  /*****************************************************/
+ /**************    4. Timeline Area  ****************/
+/*****************************************************/
+.timeline-area {
+    padding: 50px 0px;
+    overflow: hidden;
+}
+.timeline-area > div {
+	padding: 0px;
+}
+.timeline-img img {
+	width: 100%;
+}
+.timeline-area > .container-fluid > .row {
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+}
+.timeline-area > .container-fluid > .row:nth-child(2n) {
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: reverse;
+	    -ms-flex-direction: row-reverse;
+	        flex-direction: row-reverse;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+}
+.timeline-area > .container-fluid > .row > .col-md-6 {
+	padding: 0;
+}
+.timeline-area > .container-fluid > .row:nth-child(2n) .col-md-6 .timeline-content {
+	text-align: right;
+	padding-right: 20%;
+}
+.timeline-area > .container-fluid > .row:nth-child(odd) .col-md-6 .timeline-content {
+	padding-left: 20%;
+}
+.timeline-content h1 {
+	color: #1C1C1C;
+	line-height: 45px;
+	margin-bottom: 8px;
+}
+.timeline-content p {
+	color: #8F8F8F;
+}
+.timeline-content a {
+	background: #0353B4;
+	padding: 10px 35px;
+	color: #FFF;
+	text-transform: uppercase;
+	border-radius: 100px;
+	margin-top: 30px;
+}
+.timeline-content p i {
+	color: #18A4E1;
+	margin-right: 5px;
+}
+
+
+  /*****************************************************/
+ /**************    4. Testemonial Area  ****************/
+/*****************************************************/
+.test-heading h1 {
+	text-align: center;
+	color: #1C1C1C;
+	margin-bottom: 30px;
+}
+.single-testemonial {
+    padding: 0px 14%;
+    text-align: center;
+}
+.single-testemonial img {
+	width: 80px !important;
+	height: 80px !important;
+	border-radius: 100%;
+	margin-bottom: 14px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.single-testemonial p {
+	color: #8F8F8F;
+	margin-bottom: 20px;
+}
+.single-testemonial h6 {
+	color: #0353B4;
+	font-weight: 700;
+	font-size: 16px;
+}
+.testemonial-area {
+	padding: 50px 0px;
+	overflow: hidden;
+}
+.testemonial-area .container-fluid {
+	padding: 0;
+}
+.owl-carousel.testemonial-carousel .owl-nav button.owl-next {
+	position: absolute;
+	top: 45%;
+	right: 25px;
+	font-size: 50px;
+	color: #18a4e1;
+}
+.owl-carousel.testemonial-carousel .owl-nav button.owl-prev {
+	position: absolute;
+	top: 45%;
+	left: 25px;
+	font-size: 50px;
+	color: #18a4e1;
+}
+  /*****************************************************/
+ /**************    4. Team Area  ****************/
+/*****************************************************/
+.single-team {
+	text-align: center;
+}
+.team-area {
+	padding: 50px 0px;
+}
+.single-team > img {
+	width: 130px;
+	height: 130px;
+	border-radius: 100%;
+	margin-bottom: 16px;
+}
+.single-team h6 {
+	font-size: 20px;
+	color: #0353B4;
+	font-weight: 700;
+	margin-bottom: 2px;
+}
+.single-team p {
+	margin-bottom: 20px;
+}
+.single-team ul li {
+	padding: 0px 5px;
+	display: inline-block;
+}
+.single-team ul li a img {
+	width: 25px;
+	height: 25px;
+}
+  /*****************************************************/
+ /**************    4. Contact Area  ****************/
+/*****************************************************/
+.contact-area {
+    padding: 50px 0px;
+}
+.contact-bg {
+	background: #18a4e1;
+	padding: 50px 20px;
+}
+.contact-info {
+	text-align: center;
+}
+.contact-info h1 {
+	color: #FFF;
+	margin-bottom: 30px;
+}
+.contact-info p {
+	color: #FFF;
+	margin-bottom: 20px;
+}
+.contact-info ul li {
+	color: #FFF;
+	font-size: 18px;
+	font-weight: 500;
+	margin-bottom: 18px;
+}
+.map-area iframe {
+	width: 100%;
+}
+
+  /*****************************************************/
+ /**************    4. Footer Area  ****************/
+/*****************************************************/
+.footer-area {
+	padding: 50px 0px;
+}
+.footer h6 {
+	font-weight: 700;
+	font-size: 20px;
+	margin-bottom: 10px;
+}
+.footer p {
+	color: #8F8F8F;
+}
+.footer p a {
+	color: #18A4E1;
+	text-decoration: underline;
+}
+.footer ul li {
+	display: inline-block;
+	padding: 0px 5px;
+}
+.footer ul li a {
+	width: 30px;
+	height: 30px;
+	background: #18A4E1;
+	color: #FFF;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	border-radius: 100%;
+}
+.copyright-area {
+	background: #0353B4;
+	padding: 12px 0px;
+}
+.copyright {
+	text-align: center;
+}
+.copyright p {
+	color: #FFF;
+}
+/* Responsive */
+.mobileNav {
+    display: none;
+}
